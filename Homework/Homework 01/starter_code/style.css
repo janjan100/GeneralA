@@ -1,0 +1,29 @@
+body {
+    background-color:#F6F6F6;
+    color: #05080C; 
+    font-size:  18px;
+    line-height: 1.5;
+
+    
+}
+
+header{border-top: 5px solid #222222;
+    padding: 0 100px;
+  
+}
+
+p {
+    font-family: Georgia, Times, "Times New Roman", serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; 
+} /* Georgia font stack*/
+th {
+    background-color: #222222;
+
+}
+td
+ {background-color:  #eeeeee;
+}
+.removelining {  /*limit id classes, limited tool */
+    list-style: none; /* removes bullets from list */
+}
+
+
