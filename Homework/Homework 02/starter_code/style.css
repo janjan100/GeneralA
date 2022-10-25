@@ -5,17 +5,35 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
-p {
-  font-size: 18px;
-  line-height: 1.5;
-  padding: 15px 0;
+.pink  {
+  color: pink;
 }
 
+.topnav ul {
+display:flex;
+justify-content: flex-end;
+gap: 20px;
+padding: 15px;
+list-style-type: none; /*removes bullet points*/
+
+}
+
+
+
+.container{
+  display:flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+}
 /* Fonts, classes are so I can reuse the styles on a variety of elements */
 .merriweather { font-family: 'Merriweather', serif; }
       .oswald { font-family: 'Oswald', sans-serif; }
         .lato { font-family: 'Lato', sans-serif; }
 
+ .top nav li a:hover {
+ color: #f2ff00; /* when it hovers 
+   }
 /* Colors */
 /* Dark yellow: #f2ff00 */
 /* Lighter yellow: #ffd900 */
@@ -24,3 +42,21 @@ p {
 
 /* Background Image */
 /* https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg */
+
+.site-footer {
+  background-color: #000;
+  color: black;
+  padding: 15px 25px;
+}
+
+
+/* ########### Header ########### */
+/* ############################## */
+.site_header {
+  background-color: #000;
+  border-bottom: 5px solid #f2ff00;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
