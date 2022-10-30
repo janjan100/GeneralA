@@ -6,7 +6,8 @@
 	<style>
 		/* 1) Give <body> a deep red background and <article> a white background */
 		body {background:rgb(124, 40, 40);}
-		article {background: white;}
+		article {background:
+			 white;}
 	
 
 		/* 2) <h2> should have a black background, white text*/
@@ -21,13 +22,20 @@
 		}
 
 		/* 4) <li> should have the helvetica font */
-		
+		li {
+			font-family:Arial, Helvetica, sans-serif; /*backup fonts, priority*/
+		}
 		/* 5) <a> should be pink and not underlined */
 		
-
+             a {
+				color: pink;
+				text-decoration:  none;
+			 }
 		/* Bonus 1 - display the <li> without the bullets */
 		
-
+					li {
+						list-style-type: none;
+					}
 		/* Bonus 2 - display the <li> elements horizontally! */
 		
 
