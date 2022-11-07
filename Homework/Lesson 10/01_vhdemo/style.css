@@ -1,5 +1,5 @@
 *{
-  margin: 0
+  margin: 0;
 }
 
 .container {
@@ -13,6 +13,17 @@
   height: 100vh;
   justify-content: center;
 }
+
+@media (min-width: 700px) {
+  .text-design {
+    color: pink;
+  }
+}
+
+.text-design {
+  font-size: 18px;
+}
+
 
 p {
   font-size: 24px;
