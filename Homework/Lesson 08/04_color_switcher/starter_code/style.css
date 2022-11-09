@@ -31,8 +31,16 @@ p {
 }
 
 #grayButton {
-  background: gray;
+  background-color:  darkgray;
+  color: white;
 }
 #whiteButton {
   background: white;
 }
+
+.darkMode {
+  background-color: pink;
+  color: darkcyan;
+}
+
+.
