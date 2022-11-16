@@ -25,7 +25,7 @@ for (var i = 0; i < truliaCards.length; i++){
       
       // Remove the featured class
       for (var x = 0; x < truliaCards.length; x++){
-          truliaCards[q].classList.remove('trulia-featured-grid-item');
+          truliaCards[x].classList.remove('trulia-featured-grid-item');
       } 
 
       // Add the featured class on the one clicked on
